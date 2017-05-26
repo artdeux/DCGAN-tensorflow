@@ -1,3 +1,27 @@
+
+## Usage
+
+workon으로 tf0.12 로 virtual 환경으로 변경
+
+First, download dataset with:
+
+    $ python download.py mnist celebA -> 미설치된 라이브러리 설치
+
+To train a model with downloaded dataset:
+
+    $ python main.py --dataset mnist --input_height=28 --output_height=28 --train
+      -> 미설치된 라이브러리 설치 -> imsave 에러로 Pillow 설치 -> 너무 오래 돌아서 중단!
+
+Or, you can use your own dataset (without central crop) by:
+
+    $ mkdir data/DATASET_NAME  -> data/num 폴더 생성
+    ... add images to data/DATASET_NAME ...
+    
+    $ python main.py --dataset num 실행했으나 에러 발생하고 수정할 시간이 없어 프로젝트 종료
+
+
+
+
 # DCGAN in Tensorflow
 
 Tensorflow implementation of [Deep Convolutional Generative Adversarial Networks](http://arxiv.org/abs/1511.06434) which is a stabilize Generative Adversarial Networks. The referenced torch code can be found [here](https://github.com/soumith/dcgan.torch).
