@@ -1,5 +1,5 @@
 
-## Usage
+## 수정한내용
 
 workon으로 tf0.12 로 virtual 환경으로 변경
 
@@ -18,6 +18,10 @@ Or, you can use your own dataset (without central crop) by:
     ... add images to data/DATASET_NAME ...
     
     $ python main.py --dataset num 실행했으나 에러 발생하고 수정할 시간이 없어 프로젝트 종료
+
+
+
+
 
 
 
