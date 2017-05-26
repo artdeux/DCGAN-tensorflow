@@ -14,8 +14,8 @@ To train a model with downloaded dataset:
 
 Or, you can use your own dataset (without central crop) by:
 
-    $ mkdir data/DATASET_NAME  -> data/num 폴더 생성
-    ... add images to data/DATASET_NAME ...
+    $ mkdir data/DATASET_NAME  -> data/num 폴더 생성하고 인터넷에서 받은 숫자 이미지 wget으로 받고 압축 
+    ... add images to data/DATASET_NAME ...
     
     $ python main.py --dataset num 실행했으나 에러 발생하고 수정할 시간이 없어 프로젝트 종료
 
